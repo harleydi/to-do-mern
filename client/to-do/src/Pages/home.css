@@ -1,0 +1,26 @@
+.home {
+    /* width: inherit; */
+    /* background-color: aquamarine; */
+    height: 100%;
+}
+
+.homeTitle {
+    text-align: center;
+    font-size: 4rem;
+}
+
+.taskContainers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.taskBox {
+    /* border: 1px solid black; */
+    margin: 40px;
+    border-radius: 10%;
+}
+
+.taskBox:hover {
+    background-color: darkgrey;
+}

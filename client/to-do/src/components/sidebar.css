@@ -1,0 +1,52 @@
+.sidebar {
+    height: 100%;
+    /* width: 25%; */
+    background-color: #4C2A85;
+    color: white;
+}
+
+.sidebarHeader {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.sidebarNavigation {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.box {
+    height: 60px;
+    width: inherit;
+    margin: 10px 0;
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    color: white;
+}
+
+.box:hover {
+    background-color: #F4FAFF;
+}
+
+.box:hover .navLink {
+    color: #4C2A85;
+}
+
+.link {
+    margin-left: 10px;
+}
+
+.navLink {
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 3px;
+}
